@@ -8,9 +8,9 @@ body{
     
 }
 .nav_bar{
-    height: 100px;
+    height: 1%;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: darkgray;
 }
 .nav_bar h2{
     text-align: center;
@@ -181,4 +181,47 @@ body{
     padding: 30px;
     text-align: center;
     font-size: 18px;
+}
+.nav_items2{
+    display: inline;
+    height: 1%;
+    padding: 0.5% 0.5%;
+    list-style-type: none;
+    border: 2px blanchedalmond solid;
+    color: white;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.nav_items2 a{
+    padding: 0.5%;
+    margin: auto;
+    text-decoration: none;
+    color:white;
+  
+}
+.nav_bar2{
+    height: 2%;
+    padding: 0.5%;
+    width: 100%;
+    background-color: darkgray;
+    position: relative;
+}
+.item-containers{
+    margin-left: 20%;
+    height: 2%;
+}
+#F{
+    background-color: blue;
+}
+#L{
+    background-color: grey;
+}
+#T{
+    background-color: lightskyblue;
+}
+#Y{
+    background-color:rgb(255, 4, 4);
+}
+#I{
+    background-color: rgba(227, 61, 10, 0.731);
 }
