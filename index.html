@@ -1,143 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HNS HOSPITAL</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/hospital logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div>
-        <nav class="nav_bar">
-            <img class="logo" src="images/hospital logo.png" alt="hospital logo">
-            <ul>
-                <li class="nav_items"><a href="#">Home</a></li>
-                <li class="nav_items"><a href="#">Admin Portal</a></li>
-                <li class="nav_items"><a href="#">Reception Portal</a></li>
-                <li class="nav_items"><a href="#">Doctors</a></li>
-                <li class="nav_items"><a href="#">Contact Us</a></li>
-                <li class="nav_items"><a href="#">WhatsApp</a></li>
-                <li class="nav_items"><a href="#">Email</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/hospital logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- ----------------------nav bar start--------------------------------- -->
+    <div class="nav-bar">
+      <div class="nav-left">
+        <img class="logo" src="images/hospital logo.png" alt="hospital logo" />
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li class=""><a href="#">Admin Portal</a></li>
+          <li class=""><a href="#">Reception Portal</a></li>
+          <li class=""><a href="#">Doctors</a></li>
+          <li class=""><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+      </div>
     </div>
+    <!-- ----------------------nav bar end--------------------------------- -->
 
+    <!-- Appoinment booking start -->
     <div class="section-1">
-        <div class="form-container">
-            <h2>Book An Appoinment</h2>
-            <form action="" class="form-element" autocomplete="off">
-                <input type="text" placeholder="Enter Your Name "><br><br>
-                <input type="number" placeholder="Enter Your Phone Number "><br><br>
-                <input type="text" placeholder="Enter Your Email "><br><br>
-                <input type="number" placeholder="Enter Your WhatsApp Number "><br><br>
-                <textarea name="name" id="name" cols="21" rows="5">Type Your Health Query </textarea><br><br>
-                <button>Submit Now</button>
-            </form>
-        </div>
+      <div class="form-container">
+        <h2>Book An Appoinment</h2>
+        <form action="" class="form-element" autocomplete="off">
+          <input type="text" placeholder="Name " />
+          <input type="number" placeholder="Phone Number " />
+          <input type="email" placeholder="Email " />
+          <input type="number" placeholder="WhatsApp Number " />
+          <textarea name="name" id="name" placeholder="Quary"></textarea>
+          <button>Book Now</button>
+        </form>
+      </div>
     </div>
-    <div class="nav_bar1">
-        <nav>
-            <h2>Our Excellence Area</h2>
-            <ul>
-                <li class="nav_items1"><a href="#c1">Cardiology Sciences</a></li>
-                <li class="nav_items1"><a href="#c2">Emergency</a></li>
-                <li class="nav_items1"><a href="#c3">Oncology</a></li>
-                <li class="nav_items1"><a href="#c4">Gastroenterology</a></li>
-                <li class="nav_items1"><a href="#c5">Renal Sciences</a></li>
-                <li class="nav_items1"><a href="#c6">Orthopaedics</a></li>
-                <li class="nav_items1"><a href="#c7">Neuro Sciences</a></li>
-            </ul>
-        </nav>
+    <!-- Appoinment booking end -->
 
-    </div>
-    
-    <div class="specialisation" id="c1">
-        <div class="images-1">
-            <img src="images/Cardiac.jpg" alt="Cardiac Image">
+    <div class="excellence-div">
+      <div class="exc-div2">
+        <h2>Our Excellence Area</h2>
+        <div class="excellence-nav">
+          <a href="#c1">Cardiology Sciences</a>
+          <a href="#c2">Emergency</a>
+          <a href="#c3">Oncology</a>
+          <a href="#c4">Gastroenterology</a>
+          <a href="#c5">Renal Sciences</a>
+          <a href="#c6">Orthopaedics</a>
+          <a href="#c7">Neuro Sciences</a>
         </div>
-        <div class="content-1">
-            <h2>Cardiology</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+      </div>
     </div>
 
-    <div class="specialisation" id="c2">
-        <div class="images-1">
-            <img src="images/emergency.png" alt="Emergency">
-        </div>
-        <div class="content-1">
-            <h2>Emergency</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+    <div class="specialisation s1" id="c1">
+      <div class="images-1">
+        <img src="images/Cardiac.jpg" alt="Emergency" />
+      </div>
+      <div class="content-1">
+        <h2>Cardiology</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
     </div>
 
-    <div class="specialisation" id="c3">
-        <div class="images-1">
-            <img src="images/oncology.jpg" alt="Oncology Image">
-        </div>
-        <div class="content-1">
-            <h2>Oncology</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+    <div class="specialisation s2" id="c2">
+      <div class="images-1">
+        <img src="images/emergency.png" alt="Emergency" />
+      </div>
+      <div class="content-1">
+        <h2>Emergency</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
     </div>
 
-    <div class="specialisation" id="c4">
-        <div class="images-1">
-            <img src="images/gastrology.jpg" alt="Gastronology">
-        </div>
-        <div class="content-1">
-            <h2>Gastroenterologyy</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+    <div class="specialisation s3" id="c3">
+      <div class="images-1">
+        <img src="images/oncology.jpg" alt="Oncology Image" />
+      </div>
+      <div class="content-1">
+        <h2>Oncology</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
     </div>
 
-    <div class="specialisation" id="c5">
-        <div class="images-1">
-            <img src="images/Renal sciences.jpg" alt="Renal Sciences">
-        </div>
-        <div class="content-1">
-            <h2>Renal Sciences</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+    <div class="specialisation s4" id="c4">
+      <div class="images-1">
+        <img src="images/gastrology.jpg" alt="Gastronology" />
+      </div>
+      <div class="content-1">
+        <h2>Gastroenterologyy</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
     </div>
 
-    <div class="specialisation" id="c6">
-        <div class="images-1">
-            <img src="images/Ortho.jpg" alt="Orthopaedics Image">
-        </div>
-        <div class="content-1">
-            <h2>Orthopaedics</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+    <div class="specialisation s5" id="c5">
+      <div class="images-1">
+        <img src="images/Renal sciences.jpg" alt="Renal Sciences" />
+      </div>
+      <div class="content-1">
+        <h2>Renal Sciences</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
     </div>
 
-    <div class="specialisation" id="c7">
-        <div class="images-1">
-            <img src="images/Neuro.jpg" alt="Neuro Sciences Image">
-        </div>
-        <div class="content-1">
-            <h2>Neuro Sciences</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum eligendi, commodi magnam fugit quae vero tenetur eveniet quam molestias qui dolores?</p>
-        </div>
+    <div class="specialisation s6" id="c6">
+      <div class="images-1">
+        <img src="images/Ortho.jpg" alt="Orthopaedics Image" />
+      </div>
+      <div class="content-1">
+        <h2>Orthopaedics</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
     </div>
-    <div>
-        <nav class="nav_bar2">
-            <!-- <div class="logo-cotainer"> <img class="logo" src="images/hospital logo.png" alt="hospital logo"></div> -->
-            <ul class="item-containers">
-                <li class="nav_items2" style="background-color: black;">Our Social Media : </li>
-                <li class="nav_items2" id="F"><a href="#">Facebook</a></li>
-                <li class="nav_items2" id="T"><a href="#">Twitter</a></li>
-                <li class="nav_items2" id="L"><a href="#">LinkedIn</a></li>
-                <li class="nav_items2" id="I"><a href="#">Instagram</a></li>
-                <li class="nav_items2" id="Y"><a href="#">YouTube</a></li>
-                
-            </ul>
-        </nav>
-    </div>
-    <div style="text-align: center;margin:1% 10%;"><span > <i><b>@All copy rights reserved to HNS Hospital. Designed and Developed By Dilip Sarkar</b></i></span></div>
 
-</body>
+    <div class="specialisation s7" id="c7">
+      <div class="images-1">
+        <img src="images/Neuro.jpg" alt="Neuro Sciences Image" />
+      </div>
+      <div class="content-1">
+        <h2>Neuro Sciences</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quis
+          quisquam. Placeat quisquam omnis cupiditate aspernatur corporis earum
+          eligendi, commodi magnam fugit quae vero tenetur eveniet quam
+          molestias qui dolores?
+        </p>
+      </div>
+    </div>
+
+    <nav class="nav_bar2">
+      <ul class="item-containers">
+        <li class="nav_items2" id="F">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li class="nav_items2" id="T">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="nav_items2" id="L">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li class="nav_items2" id="I">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="nav_items2" id="Y">
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="copy">
+      &copy All copy rights reserved to HNS Hospital. Designed and Developed By
+      <span>Dilip Sarkar</span>
+    </div>
+    <a href="#" class="up"><i class="fa-solid fa-arrow-up"></i></a>
+  </body>
 </html>
